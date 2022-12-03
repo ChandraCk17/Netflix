@@ -2,7 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import { BsArrowLeft } from "react-icons/bs";
 import { useNavigate } from "react-router-dom";
-import video from "../assets/videoplayback.webm";
+import video from "../assets/video.mp4";
+
 export default function Player() {
   const navigate = useNavigate();
 
