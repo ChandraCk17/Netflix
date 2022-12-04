@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
-import backgroundImage from "../assets/Kristen stewart.jpg";
-import MovieLogo from "../assets/avatar-title.webp";
+import backgroundImage from "../assets/Jenifer.jpg";
+import MovieLogo from "../assets/the-hunger-games-logo.png";
 import { onAuthStateChanged } from "firebase/auth";
 import { firebaseAuth } from "../utils/firebase-Config";
 import { useNavigate } from "react-router-dom";
@@ -87,12 +87,12 @@ const Container = styled.div`
     }
     .container {
       position: absolute;
-      bottom: 5rem;
+      bottom: 6rem;
       .logo {
         img {
-          width: 100%;
-          height: 100%;
-          margin-left: 5rem;
+          width: 40%;
+          height: 40%;
+          margin-left: 4rem;
         }
       }
       .buttons {

@@ -9,7 +9,7 @@ import { signInWithEmailAndPassword, onAuthStateChanged } from "firebase/auth";
 import { firebaseAuth } from "../utils/firebase-Config";
 
 
-export default function Login() {
+function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
@@ -99,4 +99,4 @@ position relative;
 }
 `;
 
-// export default Login;
+export default Login;
