@@ -9,7 +9,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { fetchMovies, getGenres } from "../store";
 import SelectGenre from "../components/SelectGenre";
 import Slider from "../components/Slider";
-import NotAvailable from "../components/NotAvailaable";
+import NotAvailable from "../components/NotAvailable";
 
 function MoviePage() {
   const [isScrolled, setIsScrolled] = useState(false);
