@@ -59,8 +59,6 @@ import {
         `https://api.themoviedb.org/3/discover/${type}?api_key=3d1021cc3a2b3636569096ba0ee9a4d5&with_genres=${genre}`,
         genres
       );
-      console.log(data);
-      return data;
     }
   );
   
