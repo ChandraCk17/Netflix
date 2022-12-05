@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
-import backgroundImage from "../assets/Jenifer.jpg";
-import MovieLogo from "../assets/the-hunger-games-logo.png";
+import backgroundImage from "../assets/Kristen stewart.jpg";
+import MovieLogo from "../assets/avengers-logo.png";
 import { onAuthStateChanged } from "firebase/auth";
 import { firebaseAuth } from "../utils/firebase-Config";
 import { useNavigate } from "react-router-dom";
